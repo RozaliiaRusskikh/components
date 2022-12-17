@@ -26,7 +26,7 @@ function App() {
     return (
         <div>
             <label> Select a Color</label>
-            <Dropdown options={options} selection={selection} onSelect={handleSelect} />
+            <Dropdown options={options} value={selection} onChange={handleSelect} />
         </div>
     )
 }
